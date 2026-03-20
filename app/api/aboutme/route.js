@@ -1,7 +1,7 @@
 import dbConnect from '@/lib/mongodb';
 import AboutMe from '@/lib/models/AboutMe';
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 
 export async function GET() {
   try {

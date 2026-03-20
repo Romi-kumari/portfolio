@@ -95,9 +95,7 @@ export default function PortfolioPage() {
 
       {/* Hero Section */}
       <motion.section id="hero" className="hero-section">
-         <video autoPlay loop muted className="video-bg">
-    <source src="/code-bg.mp4" type="video/mp4" />
-  </video>
+      
 
   {/* 🔥 optional overlay (for readability) */}
   <div className="video-overlay"></div>
