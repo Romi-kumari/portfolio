@@ -145,7 +145,7 @@ export default function PortfolioPage() {
   <h2 className="section-title">👩‍💻 About me</h2>
 
   <p className="about-bio">
-    {aboutMe.bio || "I am Romi Kumari. I'm a passionate full-stack web developer focused on building scalable applications."}
+    {aboutMe.bio || "I am a driven Computer Science student passionate about web development and problem-solving, focused on building scalable, user-centric applications that address real-world challenges. I enjoy transforming ideas into efficient, high-performance solutions while continuously refining my coding and design skills. Currently, I am deepening my expertise in Data Structures & Algorithms, full-stack development, and system design to evolve into a high-impact software engineer."}
   </p>
   <a href="/Specialised_CV.pdf" className="resume-btn" download>
     Download CV
