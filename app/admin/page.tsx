@@ -852,7 +852,7 @@ function ContactsManager({password}) {
 
   const fetchMessages = async () => {
     try {
-      const res = await fetch('/api/contacts?password');
+      const res = await fetch(`/api/contacts?password=${password}`);;
 
       if (!res.ok) {
         console.error("Failed to fetch messages");

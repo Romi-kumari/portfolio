@@ -42,7 +42,7 @@ export async function DELETE(request) {
   try {
     const { id, password } = await request.json();
 
-    if (password !== 'admin123') {
+    if (password !== ADMIN_PASSWORD) {
       return Response.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
