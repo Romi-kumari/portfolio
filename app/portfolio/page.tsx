@@ -391,8 +391,38 @@ export default function PortfolioPage() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>Copyright Romi © Made for professional use.</p>
-      </footer>
+
+  {/* Contact Icons */}
+  <div className="contact-container">
+    <a href="mailto:kromi8868@gmail.com" className="contact-link">
+      <FaEnvelope className="icon" />
+    </a>
+
+    <a 
+      href="https://www.linkedin.com/in/romi-kumari22/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="contact-link"
+    >
+      <FaLinkedin className="icon" />
+    </a>
+
+    <a 
+      href="https://github.com/Romi-kumari"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="contact-link"
+    >
+      <FaGithub className="icon" />
+    </a>
+  </div>
+
+  {/* Copyright */}
+  <p className="copyright">
+    Copyright Romi © Made for professional use.
+  </p>
+
+</footer>
     </div>
   );
 }
